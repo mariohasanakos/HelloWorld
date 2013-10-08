@@ -37,7 +37,7 @@
     if ([nameString length] == 0) {
         nameString = @"World";
     }
-    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello! %@!", nameString];
     self.label.text = greeting;
     
 }
